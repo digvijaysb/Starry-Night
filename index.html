@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starry Night</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top and Bottom Text -->
+  <div id="topText">To, someone prettier than the starry night</div>
+  <div id="bottomText">From, your organic yellow paint</div>
+  
+  <!-- Starry Sky Canvas -->
+  <canvas id="starrySky"></canvas>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <img id="popupImage" src="" alt="Popup Image">
+      <p id="popupMessage"></p>
+      <button id="closePopup">Close</button>
+    </div>
+  </div>
+
+  <!-- Fortune Card -->
+  <div id="fortuneCard" class="fortune-card">
+    <p id="fortuneMessage"></p>
+    <button id="newFortune">Get New Fortune</button>
+  </div>
+
+  <!-- Audio -->
+  <audio id="bgMusic" loop autoplay>
+    <source src="assets/music.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
